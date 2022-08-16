@@ -10,46 +10,46 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <section class="container d-flex gap-4 justify-content-center mt-5">
+<body class="bg-light">
+    <main class="container">
+        <section class="d-flex gap-4 justify-content-center mt-5">
 
-        <div class="bg-primary px-5 py-3 text-center text-uppercase rounded">
-            <h2 class=" m-3 px-5 text-light fw-bold">Deposit</h2>
-            <h1 class="m-3 px-5">$<span id="deposit-field">00</span></h1>
-        </div>
-        <div class="bg-secondary px-5 py-3 text-center text-uppercase rounded">
-            <h2 class=" m-3 px-5 text-light fw-bold">Withdraw</h2>
-            <h1 class="m-3 px-5">$<span id="withdraw-field">00</span></h1>
-        </div>
-        <div class="bg-warning px-5 py-3 text-center text-uppercase rounded">
-            <h2 class=" m-3 px-5 text-light fw-bold">Balance</h2>
-            <h1 class="m-3 px-5">$<span id="balance-field">1240</span></h1>
-        </div>
+            <div class="bg-info px-5 py-3 text-center text-uppercase rounded shadow div-width-card">
+                <h2 class=" m-3 px-5 text-light fw-bold">Deposit</h2>
+                <h1 class="m-3 px-5">$<span id="deposit-field">00</span></h1>
+            </div>
+            <div class="bg-danger px-5 py-3 text-center text-uppercase rounded shadow div-width-card">
+                <h2 class=" m-3 px-5 text-light fw-bold">Withdraw</h2>
+                <h1 class="m-3 px-5">$<span id="withdraw-field">00</span></h1>
+            </div>
+            <div class="bg-warning px-5 py-3 text-center text-uppercase rounded shadow div-width-card">
+                <h2 class=" m-3 px-5 text-light fw-bold">Balance</h2>
+                <h1 class="m-3 px-5">$<span id="balance-field">1240</span></h1>
+            </div>
 
 
-    </section>
+        </section>
 
-    <!-- input-field -->
-    <section class="container d-flex gap-4 justify-content-center mt-5">
+        <!-- input-field -->
+        <section class="d-flex gap-4 justify-content-center mt-5">
 
-        <div class="fluid-container bg-primary px-5 py-3 text-center text-uppercase rounded">
-            <h2 class=" m-3 px-5 text-warning">Deposit</h2>
-            <input type="text" name="" id="deposit-input-field" class="form-control"
-                placeholder="$ Enter your deposit amount.">
-            <button
-                class="form-control btn btn-lg px-3 py-2 mt-4 btn-warning text-uppercase text-white fw-bold backgroundColor"
-                id="deposit-btn">Deposit</button>
-        </div>
-        <div class="fluid-container bg-primary px-5 py-3 text-center text-uppercase rounded">
-            <h2 class=" m-3 px-5 text-warning">Withdraw</h2>
-            <input type="text" name="" id="withdraw-input-field" class="form-control"
-                placeholder="$ Enter your withdraw amount.">
-            <button
-                class="form-control btn btn-lg px-3 py-2 mt-4 btn-warning text-uppercase text-white fw-bold backgroundColor"
-                id="withdraw-btn">Withdraw</button>
-        </div>
-    </section>
+            <div class="div-width bg-primary px-5 py-3 text-center text-uppercase rounded shadow">
+                <h2 class=" m-3 px-5 text-warning">Deposit</h2>
+                <input type="text" name="" id="deposit-input-field" class="form-control"
+                    placeholder="$ Enter your deposit amount.">
+                <button class=" btn btn-lg px-5 py-2 mt-4 btn-warning text-uppercase text-white fw-bold backgroundColor"
+                    id="deposit-btn">Deposit</button>
+            </div>
+            <div class="div-width bg-primary px-5 py-3 text-center text-uppercase rounded shadow">
+                <h2 class=" m-3 px-5 text-warning">Withdraw</h2>
+                <input type="text" name="" id="withdraw-input-field" class="form-control"
+                    placeholder="$ Enter your withdraw amount.">
+                <button class=" btn btn-lg px-3 py-2 mt-4 btn-warning text-uppercase text-white fw-bold backgroundColor"
+                    id="withdraw-btn">Withdraw</button>
+            </div>
+        </section>
 
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
